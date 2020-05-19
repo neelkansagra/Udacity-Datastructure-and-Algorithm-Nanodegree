@@ -1,0 +1,17 @@
+# Run time analysis
+This file gives the rum time analysis (Worst Case Big O Notation) for each solution
+
+1)Task0 :
+In this task only the first and the last element of an array was access used which is O(1) runtime.
+
+2)Task1 : 
+This task takes O(n) time, due to the fact that we access sequentially both files for their columns.
+
+3)Task2 : 
+This takes runs in O(n), due to the fact that we find many operations that are O(1) as the different elements are modified. Also we access full list of data several times because of which the actual running time is 'a*n' where a(i.e constant) is number of times we access data which simpifies and gives O(n).
+
+4)Task3 :
+This takes runs in O(n log n), because we are sorting the data using sort() command which itself has a run time complexity of O(n log n). Apart from sorting we are also accessing list several times as a result the actual complexity becomes 'a*n + b*n*log n' where a and b are constant which simplifies and gives O(n log n).
+
+5)Task4 :
+This takes runs in O(n log n), due to the fact that we find list sorting operations, which have a time complexity of O(n log n). In the code we find many operations that are O(1) as the different elements are modified. Also there are several full scans thorough the lists, which have O(n) time complexity. Though they all add up to some value of 'a* n + b*n log n' where a and b are constants and we end up simplifying them into 'O(n log n)'.
